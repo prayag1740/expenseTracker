@@ -1,0 +1,29 @@
+.expenditure {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.expense {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+    justify-content: center;
+}
+
+
+.exp-val-inc {
+    color: green;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
+
+.exp-val-exp{
+    color: red;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
